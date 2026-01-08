@@ -1,0 +1,32 @@
+import Header from './components/Header';
+import Hero from './components/Hero';
+import About from './components/About';
+import Locations from './components/Locations';
+import HowItWorks from './components/HowItWorks';
+import Partners from './components/Partners';
+import Footer from './components/Footer';
+import Legal from './components/Legal';
+import { Route, Routes } from 'react-router-dom';
+
+function App() {
+  return (
+    <div className="min-h-screen bg-white">
+      <Header />
+      
+      <Routes>
+        <Route path="/" element={
+          <main>
+            <Hero />
+            <About />
+            <Locations />
+            <HowItWorks />
+            <Partners />
+          </main>} />
+        <Route path="/legal" element={<Legal />} />
+      </Routes>
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
