@@ -1,8 +1,9 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
-import Locations from './components/Locations';
 import HowItWorks from './components/HowItWorks';
+import Locations from './components/Locations';
+import Testimonials from './components/Testimonials';
 import Partners from './components/Partners';
 import Footer from './components/Footer';
 import Legal from './components/Legal';
@@ -18,10 +19,12 @@ function App() {
           <main>
             <Hero />
             <About />
-            <Locations />
             <HowItWorks />
+            <Locations />
+            <Testimonials />
             <Partners />
-          </main>} />
+          </main>} 
+        />
         <Route path="/legal" element={<Legal />} />
       </Routes>
       <Footer />
