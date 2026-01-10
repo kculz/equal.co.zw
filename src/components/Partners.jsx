@@ -151,7 +151,7 @@ const Partners = () => {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 
-                  href="https://wa.me/263773640984?text=I'm%20interested%20in%20partnering%20with%20Equal%20Wifi"
+                  href="https://wa.me/263716409412?text=I'm%20interested%20in%20partnering%20with%20Equal%20Wifi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex items-center justify-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg shadow-blue-600/30 hover:shadow-xl hover:shadow-blue-600/40"

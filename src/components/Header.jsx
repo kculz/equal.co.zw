@@ -64,7 +64,7 @@ const Header = () => {
             ))}
             
             <a 
-              href="https://wa.me/263773640984"
+              href="https://wa.me/+263716409412"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-lg transition-all duration-300 font-medium shadow-lg shadow-blue-600/30 hover:shadow-blue-600/50 flex items-center space-x-2"

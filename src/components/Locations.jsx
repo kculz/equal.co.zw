@@ -290,7 +290,7 @@ const Locations = () => {
                 </div>
                 
                 <a 
-                  href="https://wa.me/263773640984?text=I'd%20like%20to%20request%20Equal%20Wifi%20in%20my%20area"
+                  href="https://wa.me/263716409412?text=I'd%20like%20to%20request%20Equal%20Wifi%20in%20my%20area"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex items-center justify-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg shadow-blue-600/30 hover:shadow-xl hover:shadow-blue-600/40 whitespace-nowrap"

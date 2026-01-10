@@ -63,7 +63,7 @@ const Hero = () => {
             {/* Professional CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
               
-              <a  href="https://wa.me/263773640984"
+              <a  href="https://wa.me/263716409412"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center justify-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg shadow-blue-600/30 hover:shadow-xl hover:shadow-blue-600/40"
@@ -82,7 +82,7 @@ const Hero = () => {
             </div>
 
             {/* Professional stats */}
-            <div className="grid grid-cols-3 gap-6 pt-12 border-t border-slate-800">
+            <div className="grid grid-cols-3 gap-6 pt-12 border-t border-slate-800 lg:pb-0 md:pb-10 pb-28">
               {[
                 { value: '6+', label: 'Locations', sublabel: 'and expanding' },
                 { value: '99.9%', label: 'Uptime', sublabel: 'guaranteed' },
@@ -191,7 +191,7 @@ const Hero = () => {
       </div>
 
       {/* Trust indicators bar */}
-      <div className="absolute bottom-0 left-0 right-0 bg-slate-800/80 backdrop-blur-sm border-t border-slate-700 py-6">
+      <div className="absolute bottom-0 left-0 right-0 bg-slate-800/80 backdrop-blur-sm border-t border-slate-700 py-6 ">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="flex flex-wrap items-center justify-center gap-8 text-sm text-slate-300">
             <div className="flex items-center space-x-2 hover:text-white transition-colors">

@@ -125,17 +125,17 @@ const Footer = () => {
               <span>Contact Us</span>
             </h3>
             <ul className="space-y-4">
-              <li className="flex items-start space-x-3 group">
+              <a href='tel:263779222722' className="flex items-start space-x-3 group">
                 <Phone className="w-5 h-5 text-blue-500 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform" />
                 <div>
-                  <p className="text-slate-400 group-hover:text-white transition-colors">+263 77 364 0984</p>
+                  <p className="text-slate-400 group-hover:text-white transition-colors">+263 77 922 2722</p>
                 </div>
-              </li>
+              </a>
               <li className="flex items-start space-x-3 group">
                 <MessageCircle className="w-5 h-5 text-blue-500 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform" />
                 <div>
                   <a 
-                    href="https://wa.me/263773640984"
+                    href="https://wa.me/263716409412"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-slate-400 hover:text-white transition-colors duration-200"
@@ -144,12 +144,12 @@ const Footer = () => {
                   </a>
                 </div>
               </li>
-              <li className="flex items-start space-x-3 group">
+              <a href='mailto:info@equal.co.zw' className="flex items-start space-x-3 group">
                 <Mail className="w-5 h-5 text-blue-500 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform" />
                 <div>
                   <p className="text-slate-400 group-hover:text-white transition-colors">info@equal.co.zw</p>
                 </div>
-              </li>
+              </a>
               <li className="flex items-start space-x-3 group">
                 <Clock className="w-5 h-5 text-blue-500 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform" />
                 <div>
